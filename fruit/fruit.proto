@@ -1,0 +1,9 @@
+// The definition of a fortune proto.
+syntax = "proto3";
+
+package fruit;
+
+message Date {
+  int32 month = 1;
+  int32 day= 2;
+}
